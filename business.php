@@ -39,9 +39,9 @@
             <form class="navbar-form navbar-right" role="search">
                 <button type="submit" class="btn btn-default">Add business</button>
             </form>
-            <ul class="nav navbar-nav navbar-left">
+            <!--<ul class="nav navbar-nav navbar-left">
                 <li><a href="directory.php">Events</a></li>
-            </ul>
+            </ul>-->
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -51,12 +51,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Forex <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Tours & Travel</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="forex.php">Forex <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="business.php">Business</a></li>
+                <li><a href="tourandtravel.php">Tours & Travel</a></li>
+                <li><a href="events.php">Events</a></li>
             </ul>
-            <button type="submit" class="navbar-btn btn btn-default">Add business</button>
+<!--            <a href="adbus.php" type="submit" class="navbar-btn btn btn-default">Add business</a>-->
             <form class="navbar-form navbar-right" role="search">
                 <div class="col-sm-12">
                     <div class="input-group">

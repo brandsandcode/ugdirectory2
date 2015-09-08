@@ -30,14 +30,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Uganda Directory</a>
+            <a class="navbar-brand" href="index.php">Uganda Directory</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <form class="navbar-form navbar-right" role="search">
-                <button type="submit" class="btn btn-default">Add business</button>
+                <a href="adbus.php" type="button" class="btn btn-default">Add business</a>
             </form>
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="tourandtravel.php">tour & travel</a></li>
@@ -51,10 +51,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Forex <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Business</a></li>
+                <li><a href="forex.php">Forex <span class="sr-only">(current)</span></a></li>
+                <li><a href="business.php">Business</a></li>
                 <li class="active"><a href="#">Tours & Travel</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="events.php">Events</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
                 <div class="col-sm-12">
@@ -110,11 +110,11 @@
         </div>
         <div class="col-md-4">
             <div class="row">
-                <div class="col-md-12">
-                    <img src="img/02.jpg">
+                <div>
+                    <img src="img/01.jpg" height="200" width="300">
                 </div>
-                <div class="col-md-12">
-                    <p></p>
+                <div style="margin-top: 10px;">
+                    <img src="img/01.jpg" height="200" width="300">
                 </div>
             </div>
         </div>

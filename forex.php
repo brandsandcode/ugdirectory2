@@ -21,7 +21,30 @@
 <body>
 
 
-<?php include("includes/nav.php") ?>
+<?php include("includes/nav2.php") ?>
+<nav class="navbar-default">
+    <div class="container">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="forex.php">Forex <span class="sr-only">(current)</span></a></li>
+                <li><a href="business.php">Business</a></li>
+                <li><a href="#">Tours & Travel</a></li>
+                <li><a href="events.php">Events</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="col-sm-12">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </span>
+                        <input type="text" placeholder="Search service/company" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+                    </div>
+                </div>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container" style="margin-left: auto; margin-right: auto;">
     <div class="row">
