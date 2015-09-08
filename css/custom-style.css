@@ -1,0 +1,9 @@
+#directory table { border: none;}
+#directory table tbody tr td{ background-color: #7b7e83;}
+#directory table tbody tr td:hover{ background-color: #f96332;}
+#directory table tbody tr td a{ color: #ffffff;}
+
+footer { background-color: #929498;}
+footer .col-lg-10 { margin-left: 10%;}
+footer p{ color: #ffffff;}
+footer ul li a{ color: #ffffff;}
