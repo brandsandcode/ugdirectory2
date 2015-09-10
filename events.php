@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
@@ -30,17 +31,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Uganda Directory</a>
+            <a class="navbar-brand" href="index.php">Uganda Directory</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <form class="navbar-form navbar-right" role="search">
-                <button type="submit" class="btn btn-default">Add business</button>
+                <a href="adbus.php" type="button" class="btn btn-default">Add business</a>
             </form>
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="directory.php">Events</a></li>
+                <li><a href="events.php.php">Events</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -70,7 +71,7 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+<div class="container" style="padding-top: 20px;">
     <div class="row">
         <div class="col-md-8">
             <div class="row">

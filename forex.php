@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
@@ -29,7 +30,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="forex.php">Forex <span class="sr-only">(current)</span></a></li>
                 <li><a href="business.php">Business</a></li>
-                <li><a href="#">Tours & Travel</a></li>
+                <li><a href="tourandtravel.php">Tours & Travel</a></li>
                 <li><a href="events.php">Events</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
@@ -55,7 +56,7 @@
     <div class="col-md-6 pull-left">
         <p>
             Calculate currency and foreign exchange rates with this free currency converter. Rate the Uganda shillings with the Us Dollar, Euro, British pound,
-            UAE Dirhan, Cjinese Yuan, Japanese Yen, South African Rand and all world currencies.
+            UAE Dirhan, Chinese Yuan, Japanese Yen, South African Rand and all world currencies.
         </p>
         <strong>3rd Septemper 2015</strong>
         <form >

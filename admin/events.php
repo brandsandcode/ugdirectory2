@@ -161,6 +161,9 @@
             <li>
                 <a href="tables.html"><i class="fa fa-fw fa-book"></i> Directory</a>
             </li>
+            <li>
+                <a href="info_guide.php"><i class="fa fa-fw fa-info-circle"></i> Info Guide</a>
+            </li>
         </ul>
     </div>
     <!-- /.navbar-collapse -->

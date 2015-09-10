@@ -1,9 +1,25 @@
 #directory table { border: none;}
-#directory table tbody tr td{ background-color: #7b7e83;}
+#directory table tbody tr td{ background-color: #7b7e83; margin: 0;}
 #directory table tbody tr td:hover{ background-color: #f96332;}
 #directory table tbody tr td a{ color: #ffffff;}
+#directory table tbody tr td a:hover{ text-decoration: none;}
 
 footer { background-color: #929498;}
 footer .col-lg-10 { margin-left: 10%;}
 footer p{ color: #ffffff;}
 footer ul li a{ color: #ffffff;}
+
+#button_row a{ background-color: transparent; border-color: #929498;}
+#button_row a:hover{ background-color: #f96332;; border-color: #929498;}
+
+#info_guide img{ background-color: #595959;}
+#info_guide a:hover img{ background-color: #f96332;}
+#info_guide a:hover{ text-decoration: none;}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid #fcf921;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}

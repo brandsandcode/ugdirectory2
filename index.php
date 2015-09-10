@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Uganda Directory</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -35,7 +36,7 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars fa-2x"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -60,10 +61,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 style="color: #FFF">Uganda's number one business directory</h1>
+            <h1 style="color: #FFF; font-family: Edmondsans; src: url('Edmondsans/Edmondsans-Regular.otf');">Uganda's number one business directory</h1>
             <br>
 
-           <div class="col-lg-6 center-block" style="margin-left: 25%;">
+           <div class="col-lg-8 center-block" style="margin-left: 17%;">
                <!-- Jssor Slider Begin -->
                <!-- To move inline styles to css file/block, please specify a class name for each element. -->
                <!-- ================================================== -->
@@ -186,9 +187,9 @@
                     </div>
                     <button type="submit" class="btn btn-default input-lg"><span class="fa fa-search fa-lg" aria-hidden="true"></span></button>
                 </form> <br >
-                <div class="row">
-                    <a href="#info_guide" type="button" class="btn btn-default" style="margin-right: 10%">Info Guide</a>
-                    <a href="adbus.php" type="button" class="btn btn-default" style="margin-left: 10%">Add Business</a>
+                <div class="row" id="button_row">
+                    <a href="#info_guide" type="button" class="btn btn-primary" style="margin-right: 10%;">Info Guide</a>
+                    <a href="adbus.php" type="button" class="btn btn-info" style="margin-left: 10%;">Add Business</a>
                     </div>
                 </div> <!--end of div with form-->
 
@@ -196,7 +197,7 @@
     </header>
 
     <!-- About -->
-    <section id="directory" class="directory" style="padding-top: 100px;">
+    <section id="directory" class="directory" style="padding-top: 0px;">
         <nav class="navbar navbar-inverse" id="pin1">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -207,7 +208,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index#top"><img src="img/logo.png" height="50px" style="margin-right: 10px;"></a>
+                    <a href="index#top"><img src="img/UD-logo-50x60px.png" style="margin-left: 30%; margin-top: 20%;"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -223,11 +224,11 @@
                         </div>
                         <button type="submit" class="btn btn-default">Submit</button>
                     </form>-->
-                    <a type="button" class="btn btn-danger navbar-btn navbar-right" style="margin-right: 20%">add business</a>
+                    <a href="adbus.php" type="button" class="btn btn-default navbar-btn navbar-right" style="margin-right: 20%">add business</a>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-        <div class="container">
+        <div class="container" style="padding-top: 100px;">
             <div class="row center-block">
                 <div class="col-md-10 text-center center-block" style="margin-left: 8%;">
                     <!--<h2>Stylish Portfolio is the perfect theme for your next project!</h2>
@@ -240,11 +241,11 @@
                     </form> <!--end of directoy search-->
                 </div>
             </div>
-            <div id="trigger1" class="spacer s0"></div>
 
             <!-- /.row -->
-            <div class="row col-lg-10 center-block" style="margin-left: 8%;">
-                <table class="table table-responsive table-bordered center-block text-center text-danger col-md-10">
+            <div class="row col-lg-12    center-block" style="margin-left: 8%;">
+                <div id="trigger1" class="spacer s0"></div>
+                <table class="table table-responsive table-bordered center-block text-center col-md-10">
                     <tbody>
                     <tr>
                         <td><a href=""><img src="img/icons/png%20icons_accomodation.png" height="100" width="100"><br> Accomodation</a></td>
@@ -252,20 +253,23 @@
                         <td><a href=""><img src="img/icons/png%20icons_accounting%20and%20audit.png" height="100" width="100"><br> Accounting</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_automotive%20and%20spare%20parts.png" height="100" width="100"><br> Automotives</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_sports.png" height="100" width="100"><br> Sports</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_health%20and%20hospitals.png" height="100" width="100"><br> Sports</a></td>
                     </tr>
                     <tr>
-                        <td><a href=""><img src="img/icons/png%20icons_banking%20and%20finance.png" height="80" width="80"><br> Banking</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_banking%20and%20finance.png" height="100" width="100"><br> Banking</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_business.png" height="100" width="100"><br> Business</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_building%20.png" height="100" width="100"><br> Building</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_communication%20.png" height="100" width="100"><br> Communication</a></td>
                         <td><a href=""><img src="img/icons/png%20icons_logistics.png" height="100" width="100"><br> Logistics</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_shopping%20.png" height="100" width="100"><br> Shopping</a></td>
                     </tr>
                     <tr>
-                        <td><a href=""><img src="img/icons/png%20icons_construction%20and%20civil%20works.png" height="80" width="80"><br> Accomodation</a></td>
-                        <td><img src="img/icons/png%20icons_computers%20and%20tech.png" height="100" width="100"></td>
-                        <td><img src="img/icons/png%20icons_entertainment.png" height="100" width="100"></td>
-                        <td><img src="img/icons/png%20icons_education%20and%20learning.png" height="100" width="100"></td>
-                        <td><img src="img/icons/png%20icons_social%20development.png" height="100" width="100"></td>
+                        <td><a href=""><img src="img/icons/png%20icons_construction%20and%20civil%20works.png" height="100" width="100"><br> Construction</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_computers%20and%20tech.png" height="100" width="100"><br> Computers</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_entertainment.png" height="100" width="100"><br> Entertainment</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_education%20and%20learning.png" height="100" width="100"><br> Education</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_social%20development.png" height="100" width="100"><br> Development</a></td>
+                        <td><a href=""><img src="img/icons/png%20icons_advertising%20and%20media.png" height="100" width="100"><br> Advertising</a></td>
                     </tr>
                     </tbody>
                 </table>
@@ -306,20 +310,26 @@
             </div>
             <div class="row">
                 <div class="col-md-3 text-center padding-spaced">
-                    <img src="img/person.png" alt="advert here" class="img-rounded text-center"/>
-                    <a href="forex.php"><p class="text-center padding-spaced">Forex</p></a>
+                    <!--<img src="img/icons/png%20icons_events.png" alt="advert here" class="img-rounded text-center"/>
+                    <a href="forex.php"><p class="text-center padding-spaced">Forex</p></a>-->
+                    <a href="forex.php">
+                    <img src="img/icons/info-guide-icons-01.png" alt="advert here" class="img-circle bg-warning"/>
+                    <br>Forex</a>
                 </div>
                 <div class="col-md-3 text-center padding-spaced">
-                    <img src="img/person.png" alt="advert here" class="img-rounded"/>
-                    <a href="business.php"><p class="text-center padding-spaced">Business</p></a>
+                    <a href="business.php">
+                        <img src="img/icons/info-guide-icons-03.png" alt="advert here" class="img-circle bg-warning"/>
+                        <br>Business</a>
                 </div>
                 <div class="col-md-3 text-center padding-spaced">
-                    <img src="img/person.png" alt="advert here" class="img-rounded"/>
-                    <a href="tourandtravel.php"><p class="text-center padding-spaced">Tours and Travel</p></a>
+                    <a href="tourandtravel.php">
+                        <img src="img/icons/info-guide-icons-02.png" alt="advert here" class="img-circle"/>
+                        <br>Tours and Travel</a>
                 </div>
                 <div class="col-md-3 text-center padding-spaced">
-                    <img src="img/person.png" alt="advert here" class="img-rounded"/>
-                    <a href="events.php"><p class="text-center padding-spaced">Events</p></a>
+                    <a href="events.php">
+                        <img src="img/icons/info-guide-icons-04.png" alt="advert here" class="img-circle bg-warning"/>
+                        <br>Events</a>
                 </div>
             </div>
             <div class="row">
@@ -570,7 +580,7 @@
         // build scenes
         new ScrollMagic.Scene({triggerElement: "#trigger1"})
                 .setClassToggle("#pin1", "navbar-fixed-top") // add class toggle
-//                .addIndicators() // add indicators (requires plugin)
+                .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
         new ScrollMagic.Scene({triggerElement: "#trigger2"})
                 .setClassToggle("#nav_infoguide", "active") // add class toggle

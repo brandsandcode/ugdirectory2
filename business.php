@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
@@ -30,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Uganda Directory</a>
+            <a class="navbar-brand" href="index.php">Uganda Directory</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,14 +40,14 @@
             <form class="navbar-form navbar-right" role="search">
                 <button type="submit" class="btn btn-default">Add business</button>
             </form>
-            <!--<ul class="nav navbar-nav navbar-left">
-                <li><a href="directory.php">Events</a></li>
-            </ul>-->
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">Business</a></li>
+            </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 
-<nav class="navbar-default">
+<nav class="navbar-default" style="margin-bottom: 20px;">
     <div class="container">
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -96,17 +97,25 @@
             </div>
 
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="img/2.png">
-                </div>
-                <div class="col-md-12">
-                    <p></p>
-                </div>
+<!--        <div class="col-md-1"></div>-->
+        <div class="col-lg-4 pull-right">
+            <div>
+                <img src="img/03.jpg" height="200" width="300">
+            </div>
+            <div style="margin-top: 10px;">
+                <img src="img/04.jpg" height="200" width="300">
             </div>
         </div>
+        <!--<div class="col-md-4">
+            <div class="row">
+                <div class="row">
+                    <img src="img/03.jpg">
+                </div>
+                <div class="row">
+                    <img src="img/04.jpg">
+                </div>
+            </div>
+        </div>-->
     </div>
 </div>
 

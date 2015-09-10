@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--    <link href="../css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
@@ -29,6 +30,22 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script language="JavaScript">
+        $(document).ready(function() {
+//            alert("working");
+            console.log("test: ","jquery working");
+            $('#submitAd').click(function(){
+                console.log("Button clicked");
+                $('#AdModal form').submit();
+            });
+        });
+    </script>
 
 </head>
 
@@ -161,6 +178,9 @@
                     <li>
                         <a href="tables.html"><i class="fa fa-fw fa-book"></i> Directory</a>
                     </li>
+                    <li>
+                        <a href="info_guide.php"><i class="fa fa-fw fa-info-circle"></i> Info Guide</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -191,11 +211,11 @@
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-comments fa-5x"></i>
+                                        <i class="fa fa-briefcase fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">26</div>
-                                        <div>New Comments!</div>
+                                        <div>Pending Appproval</div>
                                     </div>
                                 </div>
                             </div>
@@ -276,6 +296,15 @@
                     </div>
                 </div>
                 <!-- /.row -->
+
+                <div class="row col-lg-10" style="border: solid 1px #9b9da0; margin-top: 10px;">
+                    <h3 style="padding-left: 50px; padding-right: 20px;">Ad Slideshow <button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#AdModal">Upload</button> </h3>
+                    <table class="table">
+                        <thead>
+                        <tr><th>No.</th><th>Preview</th><th>Company</th><th>Showing</th><th>Actions</th></tr>
+                        </thead>
+                    </table>
+                </div> <!-- /.row -->
 
                 <div class="row">
                     <div class="col-lg-4">
@@ -414,6 +443,35 @@
                 </div>
                 <!-- /.row -->
 
+            <!--Modals-->
+                <div class="modal fade" id="AdModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">New Ad</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="info_guide.php" method="post">
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="control-label">Company:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="control-label">Image:</label>
+                                        <input type="file" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" id="submitAd">Save changes</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+
             </div>
             <!-- /.container-fluid -->
 
@@ -424,10 +482,10 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!--    <script src="js/jquery.js"></script>-->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!--    <script src="js/bootstrap.min.js"></script>-->
 
     <!-- Morris Charts JavaScript -->
     <script src="js/plugins/morris/raphael.min.js"></script>

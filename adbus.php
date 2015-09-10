@@ -1,6 +1,7 @@
 <!--<link class="cssdeck" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">-->
 <!-- Latest compiled and minified CSS -->
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+<link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="css/bootstrap.css">
 <style>
 @font-face { font-family: Edmondsans; src: url('Edmondsans/Edmondsans-Regular.otf'); } 
@@ -27,10 +28,10 @@ textarea{
 </style>
 <body style="background-color:rgba(255, 247, 245, 0.12);">
 <?php
-include("includes/nav.php");
+include("includes/nav2.php");
 ?>
 <form class="col-lg-12">
-  <div class="col-md-9" id="row" style="margin-left:18%; margin-top: 20px;">
+  <div class="col-md-9" id="row" style="margin-left:18%; margin-top: 20px; background-color: #fef9f5;">
 		<div class="col-md-5">
 <!--			<select id="subject" name="subject" class="span3"style="border-radius: 0px;width: 80%;height: 40px;outline: 1px inset orange; outline-offset: -1px;border: 0px;margin-top:30px;">-->
 			<select id="subject" name="subject" class="span3 form-control">
